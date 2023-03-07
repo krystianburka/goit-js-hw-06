@@ -1,5 +1,5 @@
 const textInput = document.querySelector("#validation-input");
-const textLength = textInput.dataset.length;
+const textLength = Number(textInput.dataset.length);
 console.log(textLength);
 
 textInput.addEventListener("blur", () => {
